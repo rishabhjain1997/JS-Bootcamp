@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Todo
+    </title>
+</head>
+
+<body>
+    <h1>
+        Todo List
+    </h1>
+    <input id='search-todo' type='text' placeholder='Search..'>
+    <input type='checkbox' id='toggle-completed'>
+    <label for='toggle-completed'>Hide Completed</label>
+    <div id='todos'>
+    </div>
+    <form id='add-todo'>
+        <input id='add-todo__input' type='text' placeholder='Add a todo' name='todoText'>
+        <button>Submit</button>
+    </form>
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.1.0/uuidv4.min.js"></script>
+<script src='todo-functions.js'></script>
+<script src='todo-app.js'></script>
+
+</html>
